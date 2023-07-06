@@ -1,7 +1,16 @@
 echo "# 0-Web-Development" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/2eg4rizve/0-Web-Development.git
 git push -u origin main
+
+
+
+
+
+update
+git add .
+git commit -m "first commit"
+git push

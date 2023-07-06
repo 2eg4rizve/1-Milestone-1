@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.manu-container{
+
+    background-color: rgb(77, 73, 73);
+    padding: 20px;
+    color: rgb(24, 222, 51);
+    list-style: none;
+    display: flex;
+    align-items: center;/*height nia kaj*/
+    justify-content: space-around;/*row nia kaj*/
+
+}
+.logo-photo{
+    width: 120px;
+}
+
+.menus{
+    display: flex;
+}
+.item{
+    margin-right: 10px;
+    padding: 7px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.item:hover{
+    color: blue;
+}
