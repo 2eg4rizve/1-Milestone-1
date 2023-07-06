@@ -117,16 +117,39 @@
 }
 .service-container
 {
-    display: flex;
-    padding: 20px;
-    justify-content: space-around;/*left- right kicu gap diba*/
-    align-items: center;/*height nia kaj,center a anba*/
-    height:100vh;
-    color: white;
-    border: 2px solid gold;
-    background-image: url("./images/background.png"),
-    linear-gradient(45deg,rgb(162, 32, 205),rgb(13, 4, 75));
+    background-image: url('./images/background.png'),linear-gradient(45deg,rgb(5, 5, 5), #2e2e2e);
+    color: rgb(220, 15, 15);
+    padding: 50px;
+    height: 100vh;
+    
 
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box{
+    width: 230px;
+    height: 280px;
+    box-shadow: 4px 4px 15px gray ;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: rgb(6, 31, 213);
+}
+
+.service-img{
+    width: 100px;
+    
+}
+.box-title{
+   padding: 10px;
+}
+
+.box-description{
+    padding: 10px;
 }
 .btn2{
     padding: 5px 5px;
@@ -136,24 +159,4 @@
     border-radius: px;
     margin-top: 20px;
    
-}
-.box{
-    width: 230px;
-    height: 280px;
-    box-shadow: 4px 4px 15px gray ;
-    background-color: black;
-    text-align: center;
-    padding: 15px;
-    color: azure;
-}
-.service-img{
-    width: 70px;
-    
-}
-.box-title{
-   padding: 10px;
-}
-
-.box-description{
-    padding: 10px;
 }
