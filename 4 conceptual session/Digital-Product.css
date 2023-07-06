@@ -49,9 +49,11 @@
 }
 .banner-photo{
     border: 2px solid rgb(54, 12, 204);
+    box-shadow: 4px 4px 15px rgb(55, 210, 55) ;
 }
 .banner-img{
-    width: 400px;
+    width: 800px;
+    height: 500px;
 }
 
 .title{
@@ -72,7 +74,7 @@
    
 }
 
-
+/*about  >>>>>>>>>  */
 
 .about-container{
     display: flex;
@@ -82,12 +84,14 @@
     align-items: center;
     flex-direction: row-reverse;
     padding: 20px;
+    padding-bottom: 50px;
 
 
 }
 .about-h1{
     text-align: center;
     padding-top: 30px;
+    padding-bottom: 50px;
     font-size: 40px;
 }
 .about-info{
@@ -110,6 +114,12 @@
 
 
 
+
+
+
+
+
+
 .service-h1{
     text-align: center;
     padding-top: 30px;
@@ -127,7 +137,7 @@
 .box-container{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .box{
